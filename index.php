@@ -21,21 +21,3 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 }
 ?>
-<!DOCTYPE html>
-<html lang="uk">
-<head>
-    <meta charset="UTF-8">
-    <title>Форма логіну</title>
-</head>
-<body>
-    <form method="POST" action="index.php">
-        <label for="login">Логін:</label>
-        <input type="text" id="login" name="login" required>
-        <br>
-        <label for="password">Пароль:</label>
-        <input type="password" id="password" name="password" required>
-        <br>
-        <button type="submit">Увійти</button>
-    </form>
-</body>
-</html>
